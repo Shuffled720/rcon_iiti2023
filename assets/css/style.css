@@ -796,6 +796,11 @@
   margin-top: 40px;
   animation: animate 1ms linear infinite;
 }
+.btn-disable {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.5;
+}
 .banner-lc p {
   color: #7f7f7f;
   font-size: 1.125rem;
